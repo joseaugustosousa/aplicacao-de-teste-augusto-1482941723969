@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-augusto
+  host: aplicacao-de-teste-augusto
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-augusto-AdvancedMobileAccess
+  - aplicacao-de-teste-augusto-imfpush
+  - aplicacao-de-teste-augusto-cloudantNoSQLDB
